@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>CSS</title>
+        <style>
+            article{
+                font-size: 30px;
+                color: blue;
+            }
+            article section article p{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <article> <!--Pai-->
+            <section> <!--Filho-->
+                <p>
+                    Filha
+                </p>
+                <article><!--Neto/Filho da Filha-->
+                    <section>
+                        <p>
+                            Neto
+                        </p>
+                    </section>
+                </article>
+            </section>
+            <section><!--Filho/Irmao-->
+                <p>
+                    Filho
+                </p>
+                <article><!--Neta/Filho do Filho-->
+                    <section>
+                        <p>
+                            Neta
+                        </p>
+                    </section>
+                </article>
+            </section>
+        </article>
+    </body>
+</html>
